@@ -1,0 +1,258 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #e6e6e6;
+    width: 100%;
+}
+
+.head {
+    background-color: #eac926;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 150px;
+}
+
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 300px;
+    height: 70px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-left: 40px;
+}
+
+.buscador {
+    width: 350px;
+    height: 15px;
+    margin-left: 100px;
+    padding: 9px;
+    margin-top: 15px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    width: 1px;
+    padding: 8px 0px 8px 42px;
+    margin-top: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+#textito {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.ambas_columnas {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.messi {
+    margin-bottom: 15px;
+}
+
+.primeracolumna a {
+    color: black;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.segundacolumna a {
+    color: black;
+    font-size: 20px;
+    margin: 0 7px;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.banner {
+    width: 183vh;
+    height: 300px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2vh;
+    margin-right: 20px;
+}
+.espaciador{
+margin-bottom: 15px
+}
+.product {
+    width: 300px;
+    height: 290px;
+    
+}
+
+.barra_img {
+    width: 200px;
+    height: 50px;
+}
+
+.Caja_producto {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+}
+
+.Caja_producto i {
+    margin-left: 260px;
+    border: 2px solid #39b54a;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.cafeDatos,
+.compuDatos,
+.teleDatos,
+.fonoDatos {
+    display: flex;
+    margin: 0;
+}
+
+.precio {
+    font-size: 25px;
+    margin: 0;
+}
+
+.descuento {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #39b54a;
+}
+
+.descripcion {
+    left: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.f1,
+.f2,
+.f3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icono-tarjeta,
+.icono-regalo,
+.icono-seguridad {
+    font-size: 2em;
+    margin-left: 100px;
+    color: #1259c3;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-left: 15px;
+    color: #666;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .head {
+        background-color: #eac926;
+        font-family: 'Roboto', sans-serif;
+        width: 100vw;
+        height: 300px;
+        display: flexbox;
+        align-items: stretch;
+    }
+    .logo{
+        width: 150px;
+        height: 70px;
+        margin-left: 50px;
+        margin-bottom: 0px;
+        
+    }
+    h4{
+    margin-left: 40px;
+    }
+    
+    .buscador{
+        width: 250px;
+        height: 15px;
+        margin-left: 00px;
+        padding: 9px;
+        margin-top:15px;
+    
+    }
+    .input-group input{
+        width: 1px;
+        padding: 8px 0px 8px 38px;
+        margin-top: 5px;
+    }
+    .input-group i{
+        position: absolute;
+        margin-left: 16px;
+        margin-top: 20px;
+    
+    }
+    .ambas_columnas{
+        display: none;
+    }
+    .banner{
+        width: 50vh;
+        height: 15vh;
+    
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 102vw;
+        margin-left: 0vw;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 102vw;
+        margin-left: 0vw;
+    }
+    .fechaa{
+       margin-right:300px ;
+    }
+}
